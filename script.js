@@ -80,7 +80,7 @@ contactForm.addEventListener('submit', function(e) {
         message: document.getElementById('message').value
     };
     
-    // Simular envio (aqui você integraria com um backend)
+    // Integração com backend 
     console.log('Formulário enviado:', formData);
     
     // Exibir mensagem de sucesso
@@ -144,4 +144,5 @@ document.querySelectorAll('.btn-secondary').forEach(button => {
         alert(`Produto selecionado: ${productTitle}\n\nEsta funcionalidade será implementada com integração ao catálogo completo.`);
     });
 });
+
 
